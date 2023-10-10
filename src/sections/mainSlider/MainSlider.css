@@ -1,0 +1,115 @@
+#mainSlider .mainSliderCart {
+  height: 77vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 30px;
+}
+#mainSlider .mainSliderCart .overlay {
+  padding: 3rem;
+  width: 70%;
+}
+#mainSlider .mainSliderCart .overlay h2 {
+  font-size: 7rem;
+  font-weight: 600;
+  color: #253D4E;
+  line-height: 7.7rem;
+  margin-bottom: 2rem;
+}
+#mainSlider .mainSliderCart .overlay p {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #7E7E7E;
+}
+#mainSlider .swiper-button-next {
+  margin-right: 50px;
+}
+#mainSlider .swiper-button-prev {
+  margin-left: 50px;
+}
+#mainSlider .swiper-button-prev:hover {
+  background-color: #3BB77E;
+  color: white;
+}
+#mainSlider .swiper-button-next:hover {
+  background-color: #3BB77E;
+  color: white;
+}
+#mainSlider .swiper-button-disabled {
+  opacity: 1;
+  cursor: pointer;
+  pointer-events: all;
+}
+#mainSlider .swiper-button-next,
+#mainSlider .swiper-button-prev {
+  width: 70px;
+  height: 70px;
+  background-color: #F2F3F4;
+  color: black;
+  border-radius: 100%;
+}
+#mainSlider .swiper-pagination-bullet-active {
+  background-color: #3BB77E !important;
+  border: none !important;
+  width: 20px;
+  height: 20px;
+}
+#mainSlider .swiper-pagination-bullet {
+  width: 14px;
+  height: 14px;
+  border: 1px solid black;
+  background-color: transparent;
+}
+
+@media only screen and (max-width: 1050px) {
+  #mainSlider .mainSliderCart {
+    height: 50vh;
+  }
+  #mainSlider .mainSliderCart .overlay {
+    padding: 1rem;
+    width: 100%;
+  }
+  #mainSlider .mainSliderCart .overlay h2 {
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 3.2rem;
+    margin-bottom: 1rem;
+  }
+  #mainSlider .mainSliderCart .overlay p {
+    font-size: 1rem;
+    font-weight: 300;
+  }
+  #mainSlider .swiper-button-prev:after {
+    font-size: 20px;
+  }
+  #mainSlider .swiper-button-next:after {
+    font-size: 20px;
+  }
+  #mainSlider .swiper-button-next {
+    margin-right: 20px;
+  }
+  #mainSlider .swiper-button-prev {
+    margin-left: 20px;
+  }
+  #mainSlider .swiper-button-prev:hover {
+    background-color: #3BB77E;
+    color: white;
+  }
+  #mainSlider .swiper-button-next:hover {
+    background-color: #3BB77E;
+    color: white;
+  }
+  #mainSlider .swiper-button-disabled {
+    opacity: 1;
+    cursor: pointer;
+    pointer-events: all;
+  }
+  #mainSlider .swiper-button-next,
+  #mainSlider .swiper-button-prev {
+    width: 30px;
+    height: 30px;
+    background-color: #F2F3F4;
+    color: black;
+    border-radius: 100%;
+  }
+}/*# sourceMappingURL=MainSlider.css.map */

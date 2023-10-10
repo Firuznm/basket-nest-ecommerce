@@ -1,0 +1,120 @@
+
+#mainSlider{
+.mainSliderCart{
+	height: 77vh; 
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	border-radius: 30px; 
+	.overlay{
+		padding: 3rem;
+		width: 70%;
+		h2{
+			font-size: 7rem;
+            font-weight: 600;
+             color: #253D4E;
+             line-height: 7.7rem;
+             margin-bottom: 2rem;
+		}
+		p{  font-size: 2rem;
+			font-weight: 500;
+			color: #7E7E7E;
+		}
+	}
+}
+.swiper-button-next{
+	margin-right: 50px;
+}
+.swiper-button-prev{
+	margin-left: 50px;
+}
+.swiper-button-prev:hover{
+	background-color: #3BB77E;
+	color: white;
+}
+.swiper-button-next:hover{
+	background-color: #3BB77E;
+	color: white;
+}
+.swiper-button-disabled {
+    opacity: 1;
+    cursor: pointer;
+    pointer-events:all;
+}
+.swiper-button-next,
+.swiper-button-prev{
+  width: 70px;
+  height: 70px;
+  background-color:#F2F3F4;
+  color: black;
+  border-radius: 100%;
+}
+.swiper-pagination-bullet-active {
+  background-color: #3BB77E !important;
+  border: none !important;
+  width: 20px;
+  height: 20px;
+}
+.swiper-pagination-bullet{
+  width: 14px;
+  height: 14px;
+  border: 1px solid black;
+  background-color: transparent;
+}
+}
+
+// responsive start
+@media only screen and (max-width: 1050px) {
+	#mainSlider{
+		.mainSliderCart{
+			height: 50vh; 
+			.overlay{
+				padding: 1rem;
+				width: 100%;
+				h2{
+					font-size: 2rem;
+					font-weight: 500;
+					 line-height: 3.2rem;
+					 margin-bottom: 1rem;
+				}
+				p{  font-size: 1rem;
+					font-weight: 300;
+				}
+			}
+		}
+		.swiper-button-prev:after{
+			font-size: 20px;
+		}
+		.swiper-button-next:after{
+			font-size: 20px;
+		}
+		.swiper-button-next{
+			margin-right: 20px;
+		}
+		.swiper-button-prev{
+			margin-left: 20px;
+		}
+		.swiper-button-prev:hover{
+			background-color: #3BB77E;
+			color: white;
+		}
+		.swiper-button-next:hover{
+			background-color: #3BB77E;
+			color: white;
+		}
+		.swiper-button-disabled {
+			opacity: 1;
+			cursor: pointer;
+			pointer-events:all;
+		}
+		.swiper-button-next,
+		.swiper-button-prev{
+		  width: 30px;
+		  height: 30px;
+		  background-color:#F2F3F4;
+		  color: black;
+		  border-radius: 100%;
+		}
+		}
+
+}  

@@ -1,0 +1,103 @@
+#header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  background-color: aliceblue;
+}
+#header .container {
+  padding-top: 24px;
+}
+#header .container .nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  -moz-column-gap: 3rem;
+       column-gap: 3rem;
+  height: 3rem;
+}
+#header .container .nav a .nav-logo {
+  flex: 0.8;
+  height: 3rem;
+  cursor: pointer;
+}
+#header .container .nav a .nav-logo img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#header .container .nav input {
+  flex: 3;
+  display: inline-block;
+  height: 100%;
+}
+#header .container .nav .basket-like-acound {
+  flex: 2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#header .container .nav .basket-like-acound a {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  cursor: pointer;
+}
+#header .container .nav .basket-like-acound a .basket-count {
+  position: absolute;
+  top: -14px;
+  left: 7px;
+  width: 24px;
+  height: 24px;
+  border-radius: 100%;
+  background-color: #3BB77E;
+  color: white;
+  text-align: center;
+  font-weight: 700;
+}
+#header .container .nav .basket-like-acound .icon {
+  text-align: center;
+  margin-right: 7px;
+  font-size: 22px;
+}
+
+@media only screen and (max-width: 850px) {
+  #header .container .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    -moz-column-gap: 3rem;
+         column-gap: 3rem;
+    height: 3rem;
+  }
+  #header .container .nav a .nav-logo {
+    flex: 0.8;
+    height: 3rem;
+    cursor: pointer;
+  }
+  #header .container .nav a .nav-logo img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  #header .container .nav input {
+    display: none;
+  }
+  #header .container .nav .basket-like-acound {
+    justify-content: end;
+  }
+  #header .container .nav .basket-like-acound .compare,
+  #header .container .nav .basket-like-acound .account {
+    display: none;
+  }
+  #header .container .nav .basket-like-acound a .basket-count {
+    left: 18px;
+  }
+  #header .container .nav .basket-like-acound .icon {
+    margin-left: 10px;
+  }
+}/*# sourceMappingURL=Header.css.map */

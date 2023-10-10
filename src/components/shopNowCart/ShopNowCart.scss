@@ -1,0 +1,46 @@
+.shop-cart{
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	border-radius: 20px;
+	height: 20rem;
+	.overlay{
+    width: 75%;
+	padding: 5rem 2rem;
+	h5{
+		height: 8rem;
+		font-size: 2rem;
+		color: #253D4E;
+        font-weight: 700;
+        line-height: 1.2;
+		cursor: pointer;
+		transition: 0.3s;
+		margin-bottom: 1rem;
+	}	
+	& :hover{
+			transform: translateY(-5px);
+		}
+
+}}
+
+// responsive start 
+@media only screen and (max-width: 720px) {
+	.shop-cart{
+		height: 12rem;
+		.overlay{
+		padding: 2rem;
+		h5{
+			height: 4rem;
+			font-size: 1.2rem;
+			font-weight: 500;
+			line-height: 1.2;
+			cursor: pointer;
+			transition: 0.3s;
+			margin-bottom: 3rem;
+		}	
+		& :hover{
+				transform: translateY(-5px);
+			}
+	
+	}}
+  }

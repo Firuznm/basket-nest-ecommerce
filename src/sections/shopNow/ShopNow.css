@@ -1,0 +1,13 @@
+#shop-nows .container .shop-now {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(33rem, 1fr));
+  gap: 2rem;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 720px) {
+  #shop-nows .container .shop-now {
+    grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
+    gap: 2rem;
+  }
+}/*# sourceMappingURL=ShopNow.css.map */

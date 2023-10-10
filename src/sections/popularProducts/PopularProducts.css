@@ -1,0 +1,244 @@
+#popularProducts .popular-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+#popularProducts .popular-header h3 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+#popularProducts .popular-header .popular-product-page {
+  display: flex;
+}
+#popularProducts .popular-header .popular-product-page :nth-child(1) a {
+  color: #3BB77E;
+}
+#popularProducts .popular-header .popular-product-page li > a {
+  margin-left: 1rem;
+  color: black;
+  font-size: 1.3rem;
+  font-weight: 600;
+  transition: 0.3s;
+}
+#popularProducts .popular-header .popular-product-page :hover {
+  color: #3BB77E;
+  transform: translateY(-4px);
+}
+#popularProducts .popular-product-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
+  justify-content: center;
+  justify-items: center;
+  grid-gap: 2rem;
+}
+#popularProducts .popular-product-list .popular-cart {
+  position: relative;
+  padding: 1rem;
+  border-radius: 15px;
+  transition: all 0.5s;
+  border: 1px solid rgb(87, 84, 84);
+}
+#popularProducts .popular-product-list .popular-cart:hover {
+  border: 1px solid #3BB77E;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#popularProducts .popular-product-list .popular-cart:hover .true-false-image .false {
+  opacity: 1;
+  transform: scale(1.015);
+  overflow: hidden;
+}
+#popularProducts .popular-product-list .popular-cart:hover .true-false-image .add-list {
+  opacity: 1;
+}
+#popularProducts .popular-product-list .popular-cart .different-product {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 7;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding: 0.5rem 0.9rem;
+  border: 1px solid blue;
+}
+#popularProducts .popular-product-list .popular-cart a.true-false-image {
+  display: block;
+  position: relative;
+  aspect-ratio: 2/2;
+  cursor: pointer;
+}
+#popularProducts .popular-product-list .popular-cart a.true-false-image .true {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#popularProducts .popular-product-list .popular-cart a.true-false-image .false {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  opacity: 0;
+  transition: all 0.7s;
+}
+#popularProducts .popular-product-list .popular-cart a.true-false-image .add-list {
+  position: absolute;
+  top: 43%;
+  left: 30%;
+  width: 150px;
+  height: 70px;
+  border-radius: 7px;
+  background-color: white;
+  display: flex;
+  justify-content: space-evenly;
+  border: 2px solid;
+  opacity: 0;
+  transition: all 1s;
+  border: 1px solid #3BB77E;
+}
+#popularProducts .popular-product-list .popular-cart a.true-false-image .add-list .wishlist {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid #3BB77E;
+}
+#popularProducts .popular-product-list .popular-cart a.true-false-image .add-list .wishlist .heart {
+  width: 50px;
+  font-size: 1.4rem;
+  color: #3BB77E;
+  transition: 0.3s;
+}
+#popularProducts .popular-product-list .popular-cart a.true-false-image .add-list .wishlist .heart:hover {
+  fill: #fd7e14;
+}
+#popularProducts .popular-product-list .popular-cart a.true-false-image .add-list .compare {
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid #3BB77E;
+}
+#popularProducts .popular-product-list .popular-cart a.true-false-image .add-list .compare .left-right {
+  font-size: 2rem;
+  color: #3BB77E;
+  transition: 0.3s;
+}
+#popularProducts .popular-product-list .popular-cart a.true-false-image .add-list .compare .left-right:hover {
+  fill: #fd7e14;
+}
+#popularProducts .popular-product-list .popular-cart a.true-false-image .add-list .view {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+}
+#popularProducts .popular-product-list .popular-cart a.true-false-image .add-list .view .eye {
+  font-size: 2rem;
+  color: #3BB77E;
+  transition: 0.3s;
+}
+#popularProducts .popular-product-list .popular-cart a.true-false-image .add-list .view .eye:hover {
+  color: #fd7e14;
+}
+#popularProducts .popular-product-list .popular-cart .pop-pro-content .pop-name {
+  display: block;
+  font-size: 1.4rem;
+  color: #adadad;
+  transition: 0.3s;
+}
+#popularProducts .popular-product-list .popular-cart .pop-pro-content .pop-name:hover {
+  color: #3BB77E;
+}
+#popularProducts .popular-product-list .popular-cart .pop-pro-content .pop-description {
+  display: block;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.7rem;
+  color: black;
+  margin: 0.5rem 0;
+  transition: 0.3s;
+  height: 5rem;
+}
+#popularProducts .popular-product-list .popular-cart .pop-pro-content .pop-description:hover {
+  color: #3BB77E;
+}
+#popularProducts .popular-product-list .popular-cart .pop-pro-content .pop-pro-type {
+  display: block;
+  margin: 1rem 0;
+}
+#popularProducts .popular-product-list .popular-cart .pop-pro-content .pop-pro-type .pro-type {
+  font-size: 1.4rem;
+  color: #3BB77E;
+}
+#popularProducts .popular-product-list .popular-cart .pop-pro-content .pop-pro-type .pro-type:hover {
+  color: #fd7e14;
+}
+#popularProducts .popular-product-list .popular-cart .pop-pro-content .pop-price {
+  display: flex;
+  justify-content: space-between;
+}
+#popularProducts .popular-product-list .popular-cart .pop-pro-content .pop-price .pop-discounted-price {
+  font-size: 1.5rem;
+  color: #3BB77E;
+  font-weight: 800;
+}
+#popularProducts .popular-product-list .popular-cart .pop-pro-content .pop-price .pop-previous-price {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #adadad;
+  text-decoration: line-through;
+}
+#popularProducts .popular-product-list .popular-cart .pop-pro-content .pop-price .add-btn {
+  display: inline-block;
+  padding: 6px 20px 6px 20px;
+  border-radius: 4px;
+  background-color: #DEF9EC;
+  color: #3BB77E;
+  font-size: 1.2rem;
+  font-weight: 700;
+  transition: 0.5s;
+  border: none;
+  cursor: pointer;
+}
+#popularProducts .popular-product-list .popular-cart .pop-pro-content .pop-price .add-btn:hover {
+  transform: translateY(-7px);
+  background-color: #3BB77E;
+  color: white;
+  cursor: pointer;
+}
+#popularProducts .popular-product-list .popular-cart .pop-pro-content .pop-price .add-btn .bascet-add {
+  margin-right: 0.5rem;
+}
+
+@media only screen and (max-width: 720px) {
+  #popularProducts {
+    margin-bottom: 15rem;
+  }
+  #popularProducts .popular-header {
+    flex-wrap: wrap;
+  }
+  #popularProducts .popular-header h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  #popularProducts .popular-header .popular-product-page {
+    flex-wrap: wrap;
+  }
+  #popularProducts .popular-header .popular-product-page :nth-child(1) a {
+    color: #3BB77E;
+  }
+  #popularProducts .popular-header .popular-product-page li > a {
+    margin-left: 1rem;
+    color: black;
+    font-size: 1.3rem;
+    font-weight: 600;
+    transition: 0.3s;
+  }
+  #popularProducts .popular-header .popular-product-page :hover {
+    color: #3BB77E;
+    transform: translateY(-4px);
+  }
+}/*# sourceMappingURL=PopularProducts.css.map */

@@ -1,0 +1,22 @@
+.btn-shop-now{
+	padding: 7px 8px 7px 12px;
+    font-size: 18px;
+	font-weight: 600;
+	background-color: #3BB77E;
+    cursor: pointer;
+	color: #fff;
+	transition: all 300ms linear 0s;
+    letter-spacing: 0.5px;
+	border-radius: 4px;
+}
+.icon-right{
+	font-size: 15px;
+	transition: all 300ms linear 0s;
+}
+.btn-shop-now:hover{
+	background-color: #FDC040;
+	.icon-right{
+		margin-left: 10px;
+	}
+}
+

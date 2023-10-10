@@ -1,0 +1,110 @@
+#basket .container .pr-basket {
+  display: flex;
+  justify-content: space-between;
+}
+#basket .container .pr-basket .praducts-basket {
+  width: 60%;
+  border: 1px solid black;
+  padding: 15px 0;
+  border-radius: 10px;
+}
+#basket .container .pr-basket .praducts-basket .basket-wrap {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  padding-bottom: 10px;
+  border-bottom: 1px solid black;
+}
+#basket .container .pr-basket .praducts-basket .basket-wrap .pr-img {
+  width: 125px;
+  height: 110px;
+  border: 1px solid black;
+  border-radius: 8px;
+  margin-left: 15px;
+}
+#basket .container .pr-basket .praducts-basket .basket-wrap .pr-img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: fill;
+     object-fit: fill;
+  padding: 10px;
+}
+#basket .container .pr-basket .praducts-basket .basket-wrap .pr-name-star {
+  width: 300px;
+}
+#basket .container .pr-basket .praducts-basket .basket-wrap .pr-name-star p {
+  font-size: 1rem;
+  margin-bottom: 10px;
+  color: #253D4E;
+  transition: 0.3s;
+  padding-top: 10px;
+}
+#basket .container .pr-basket .praducts-basket .basket-wrap .pr-name-star p:hover {
+  color: gold;
+}
+#basket .container .pr-basket .praducts-basket .basket-wrap .prew-price {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #253D4E;
+  padding-top: 10px;
+}
+#basket .container .pr-basket .praducts-basket .basket-wrap .pr-count {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border: 1px solid #3BB77E;
+  height: 3rem;
+  padding: 3px 5px 3px 15px;
+}
+#basket .container .pr-basket .praducts-basket .basket-wrap .pr-count .arrow {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+#basket .container .pr-basket .praducts-basket .basket-wrap .pr-count .arrow .up,
+#basket .container .pr-basket .praducts-basket .basket-wrap .pr-count .arrow .down {
+  cursor: pointer;
+  color: #3BB77E;
+}
+#basket .container .pr-basket .praducts-basket .basket-wrap .next-price {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #3BB77E;
+  padding-top: 10px;
+}
+#basket .container .pr-basket .praducts-basket .basket-wrap .delete-icon svg {
+  padding-top: 14px;
+  font-size: 2rem;
+}
+#basket .container .pr-basket .basket-total {
+  width: 30%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  border: 1px solid black;
+  border-radius: 7px;
+}
+#basket .container .pr-basket .basket-total .count,
+#basket .container .pr-basket .basket-total .total {
+  color: #3BB77E;
+}
+#basket .container .pr-basket .basket-total .pr-count {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+#basket .container .pr-basket .basket-total .pr-total {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.basket-empty {
+  position: absolute;
+  transform: translate(-26%, -51%);
+  top: 50%;
+  left: 38%;
+  font-size: 2rem;
+  font-weight: 700;
+  color: red;
+}/*# sourceMappingURL=BasketPage.css.map */

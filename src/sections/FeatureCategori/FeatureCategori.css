@@ -1,0 +1,67 @@
+#featureCatagori {
+  margin-bottom: 5rem;
+}
+#featureCatagori .container .feature-header-list {
+  margin-bottom: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: end;
+}
+#featureCatagori .container .feature-header-list h3 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-right: 2rem;
+}
+#featureCatagori .container .feature-header-list .feature-page {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+#featureCatagori .container .feature-header-list .feature-page :nth-child(3) a {
+  color: #3BB77E;
+}
+#featureCatagori .container .feature-header-list .feature-page li > a {
+  margin-left: 1.7rem;
+  color: black;
+  font-size: 1.7rem;
+  font-weight: 600;
+  transition: 0.4s;
+}
+#featureCatagori .container .feature-header-list .feature-page :hover {
+  color: #3BB77E;
+  transform: translateY(-4px);
+}
+#featureCatagori .container .feature-full-list .feature-cart {
+  display: block;
+  border-radius: 25px;
+  text-align: center;
+  transition: 0.3s;
+  border: 1px solid transparent;
+  height: 17rem;
+  background-color: bisque;
+  cursor: pointer;
+}
+#featureCatagori .container .feature-full-list .feature-cart:hover {
+  border: 1px solid #3BB77E;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#featureCatagori .container .feature-full-list .feature-cart:hover h6 {
+  color: #3BB77E;
+}
+#featureCatagori .container .feature-full-list .feature-cart h6 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #253D4E;
+  margin-top: 3rem;
+}
+#featureCatagori .container .feature-full-list .feature-cart span {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #7E7E7E;
+}
+
+.feature-full-list:nth-child(1) a {
+  background-color: #3BB77E;
+}/*# sourceMappingURL=FeatureCategori.css.map */
